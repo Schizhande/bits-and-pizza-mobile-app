@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BitsandPizzas.iml" filepath="$PROJECT_DIR$/BitsandPizzas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BitsandPizzas-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BitsandPizzas-app.iml" group="BitsandPizzas/app" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter08-BitsandPizzas.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter08-BitsandPizzas.iml" group="BitsandPizzas" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BitsandPizzas.iml" filepath="$PROJECT_DIR$/.idea/BitsandPizzas.iml" group="BitsandPizzas" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="BitsandPizzas/app" />
     </modules>
   </component>
 </project>

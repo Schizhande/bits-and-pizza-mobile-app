@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.ShareActionProvider;
 import androidx.appcompat.widget.Toolbar;
@@ -37,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(pager);
 //        setupTabIcons(tabLayout);
-        tabLayout.getTabAt(0).setIcon(R.drawable.home);
-        tabLayout.getTabAt(1).setIcon(R.drawable.pizza);
-        tabLayout.getTabAt(2).setIcon(R.drawable.pasta);
-        tabLayout.getTabAt(3).setIcon(R.drawable.stores);
+//        tabLayout.getTabAt(0).setIcon(R.drawable.home);
+//        tabLayout.getTabAt(1).setIcon(R.drawable.pizza);
+//        tabLayout.getTabAt(2).setIcon(R.drawable.pasta);
+//        tabLayout.getTabAt(3).setIcon(R.drawable.stores);
     }
 
     @Override
@@ -105,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
 //        tabLayout.getTabAt(3).setCustomView(tabFour);
 //    }
 
-    private class SectionsPagerAdapter extends FragmentPagerAdapter {
+    private static class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         private final List<Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentTitleList = new ArrayList<>();
